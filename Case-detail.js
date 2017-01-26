@@ -3,7 +3,7 @@ $(document).ready(function(e) {
 	//根据滚动条来设置右侧信息位置固定
 	xlc.setFixed(".js_fixed");
 	
-	//上一个鼠标移入效果
+	//上一个鼠标移入效果   
 	$("#js_last").mousemove(function(e) {
 		var e = e || window.event;
 		var mousex = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft ;
