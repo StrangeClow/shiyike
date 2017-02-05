@@ -7,10 +7,10 @@ $(document).ready(function(e) {
 	});
 
 	
-	/*输入框移入改变样式*/
+	  /*输入框移入改变样式*/
     $(".js_input_applay").focus(function(){
 		$(this).parents("label").addClass("focus");
 	}).blur(function(e) {
-        $(this).parents("label").removeClass("focus");
+        $(this).parents("label").removeClass("focus"); 
     });
 });
