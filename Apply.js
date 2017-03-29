@@ -1,5 +1,5 @@
 $(document).ready(function(e) {
-	//申请表单验证
+	//申请表单验证的方法
 	$("#js_demoform").Validform({
 		tiptype:function(msg,o,cssctl){
 			$("#js_tip").text(msg);		
