@@ -37,7 +37,7 @@ var common = {
 		var top = 0;
 		var left = 0;
 		
-		//根据浏览器宽高来设定指定容器针对浏览器视图进行居中
+		//根据浏览器宽高来设定指定容器针对浏览器视图进行居中  
 		if(screenW < paraW){
 			left = 0;
 		}else{
